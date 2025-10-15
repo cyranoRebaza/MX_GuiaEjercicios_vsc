@@ -1,0 +1,77 @@
+
+
+# Carpetas de compilación
+/bin/
+/build/
+
+
+
+# -------------------------------
+# Compilación de C / C++
+# -------------------------------
+
+# Archivos intermedios
+*.d
+*.o
+*.obj
+*.lo
+*.slo
+
+# Cabeceras precompiladas
+*.gch
+*.pch
+
+# Bibliotecas dinámicas
+*.so
+*.dylib
+*.dll
+
+# Bibliotecas estáticas
+*.lai
+*.la
+*.a
+*.lib
+
+# Archivos de módulo Fortran (por compatibilidad)
+*.mod
+*.smod
+
+# Ejecutables
+*.exe
+*.out
+*.app
+
+# -------------------------------
+# VS Code
+# -------------------------------
+
+# Configuración local (no subir preferencias personales)
+.vscode/
+
+# Cache y dependencias temporales
+*.log
+*.tmp
+
+# -------------------------------
+# Code::Blocks / otros IDEs (opcional)
+# -------------------------------
+*.layout
+*.depend
+*.cbp
+bin/
+obj/
+
+# -------------------------------
+# Archivos de sistema
+# -------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------------
+# Pruebas o backups personales
+# -------------------------------
+*.bak
+*.old
+*.save
+
